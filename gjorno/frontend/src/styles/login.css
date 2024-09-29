@@ -1,0 +1,115 @@
+.base-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 21em;
+}
+
+#login-image {
+  width: 15em;
+}
+
+.form {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+}
+
+.loginLabel {
+  font-size: 20px;
+}
+
+.loginInput {
+  margin-top: 6px;
+  min-width: 18em;
+  height: 37px;
+  padding: 0px 10px;
+  font-size: 16px;
+  background-color: #f3f3f3;
+  border: 0;
+  border-radius: 4px;
+  margin-bottom: 31px;
+  transition: all 250ms ease-in-out;
+}
+
+.loginInput:focus {
+  outline: none;
+  box-shadow: 0px 0px 12px 0.8px #a3b18a;
+}
+
+.footer {
+  margin-top: 0;
+}
+
+.loginBtn {
+  font-size: 21px;
+  padding: 5px 20px;
+  border: 0;
+  background-color: #03a78d;
+  border-radius: 3px;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-color: #08c3aa;
+}
+
+.loginBtn:focus {
+  outline: none;
+}
+
+#button-link {
+  margin-top: 10px;
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#float-container {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.float-child {
+  flex: 1;
+}
+
+#error {
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #d44991;
+}
+
+#password {
+  margin-bottom: 0;
+}

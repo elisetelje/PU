@@ -1,0 +1,62 @@
+.box {
+  background-color: #c5d1cf;
+  padding: 10px;
+  margin: 20px;
+  width: 220px;
+  height: 280px;
+  border-radius: 20px;
+  flex: auto;
+}
+
+#opprettet {
+  font-size: x-small;
+}
+
+#dato {
+  font-size: x-small;
+}
+
+.genrebox {
+  border-radius: 5px;
+  width: 100px;
+  margin: auto;
+}
+
+#annetBox {
+  background-color: #f2d773;
+  color: black;
+}
+
+#lopingBox {
+  background-color: #432b82;
+  color: white;
+}
+
+#turBox {
+  background-color: #e3549b;
+  color: white;
+}
+
+#attraksjonBox {
+  background-color: #7b9e99;
+}
+
+.activity-button {
+  font-weight: bolder;
+  color: white;
+  background-color: #06a68d;
+  border-radius: 6px;
+  border-width: 1px;
+  height: 30px;
+  width: 130px;
+  cursor: pointer;
+}
+
+#icon {
+  height: 25px;
+  right: 200px;
+}
+
+.imgRight {
+  text-align: right;
+}

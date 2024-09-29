@@ -1,0 +1,68 @@
+.popUp {
+  width: 40%;
+  height: 280px;
+  border-radius: 8px;
+  background-color: #fdde35;
+  padding: 20px;
+  margin-left: 28.5%;
+  margin-right: 28.5%;
+  position: fixed;
+  top: 150px;
+}
+
+.description {
+  height: 80px;
+}
+
+.btn {
+  color: white;
+  background-color: #452b80;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+.btn:hover {
+  background-color: #f1599f;
+}
+
+#btnExit {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  height: 30px;
+  width: 50px;
+  font-size: 20px;
+}
+#btnOk {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  height: 30px;
+  width: 50px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.input {
+  margin: 10px;
+  position: absolute;
+  left: 36%;
+  width: 200px;
+  height: 20px;
+}
+
+.label {
+  margin: 10px;
+  position: absolute;
+  left: 10%;
+  font-size: 20px;
+}
+
+.div {
+  margin: 30px;
+}
+
+#tittel {
+  margin-top: 0;
+  font-size: 25px;
+}
